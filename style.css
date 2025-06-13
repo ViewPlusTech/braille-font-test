@@ -26,10 +26,9 @@ body {
   padding-block: 2em;
 }
 
-h2,
-p {
+h2 {
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 0em;
 }
 
 img {

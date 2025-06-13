@@ -1,4 +1,4 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840.196 411.9">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420">
   <style>
     @font-face {
       font-family: 'Braille29';
@@ -10,9 +10,13 @@
     text {
       font-family: "Braille29", sans-serif;
     }
+
+    text.heading {
+      text-anchor: middle;
+    }
   </style>
   
-  <g id="drawing">
+  <g id="drawing" transform="translate(0, 30)">
     <g id="white_bg">
       <rect fill="#FFFFFF" width="840.196" height="411.9" />
     </g>
@@ -29,25 +33,25 @@
 			c0.186-0.246,4.649-6.026,12.097-5.235c8.698,0.921,17.304,10.341,25.573,27.998C462.71,182.568,462.938,332.152,462.938,338.5z" />
       <g id="Layer_22">
 
-        <line fill="none" stroke="#079246" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" x1="629.802"
+        <line fill="none" stroke="#079246" stroke-width="10" stroke-linecap="round" x1="629.802"
           y1="105.958" x2="629.802" y2="396.292" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="583.692"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="583.692"
           y1="306.292" x2="629.802" y2="306.292" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="602.952"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="602.952"
           y1="317.625" x2="629.802" y2="317.625" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="629.802"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="629.802"
           y1="333.854" x2="674.816" y2="333.854" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="629.802"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="629.802"
           y1="358.292" x2="596.867" y2="358.292" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="629.802"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="629.802"
           y1="364.625" x2="657.692" y2="364.625" />
 
-        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" stroke-miterlimit="10" x1="602.952"
+        <line fill="none" stroke="#019119" stroke-width="8" stroke-linecap="round" x1="602.952"
           y1="387.959" x2="628.025" y2="387.959" />
       </g>
       <g id="clip">
@@ -214,7 +218,7 @@
       <path fill="none" stroke="#006930" stroke-width="2.0913" stroke-linejoin="round" d="M614.917,113.732
 			c0,0-1.98-0.156-23.93,4.068" />
       <g id="Layer_14">
-        <path fill="none" stroke="#006930" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M586.351,128.232
+        <path fill="none" stroke="#006930" stroke-width="2" stroke-linecap="round" d="M586.351,128.232
 				c0,0-9.34,3.367-12.828,16.467" />
       </g>
     </g>
@@ -1594,45 +1598,40 @@
   </g>
 
 
-  <g id="labels">
-    <text transform="matrix(0.8077 0 0 1 363.8242 35.5425)" display="inline">
-      <tspan x="0" y="0" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="27">Epigeal</tspan>
-      <tspan x="-32.544" y="32.4" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="27">germination
-      </tspan>
+  <g id="labels" transform="translate(0, 30)">
+    <text  transform="translate(420, -15)" class="heading">Seed Germination Cycle</text>
+
+    <text transform="translate(363.8242 35.5425)">
+      <tspan x="0" y="0">Epigeal</tspan>
+      <tspan x="-32.544" dy="1.3em">germination</tspan>
     </text>
-    <text transform="matrix(0.8077 0 0 1 557.4453 35.5425)" display="inline">
-      <tspan x="0" y="0" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="27">Hypogeal</tspan>
-      <tspan x="-18.457" y="32.4" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="27">germination
-      </tspan>
-    </text>
-
-    <text transform="matrix(0.8077 0 0 1 729.8262 137.4126)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="23.5225">Plumule</text>
-
-    <text transform="matrix(0.8077 0 0 1 141.6416 342.1074)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="23.5225">Radicle</text>
-
-    <text transform="matrix(0.8077 0 0 1 37.7402 342.1074)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="23.5225">Seed</text>
-
-    <text transform="matrix(0.8077 0 0 1 716.4717 242.4121)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="23.5225">Epicotyl</text>
-
-    <text transform="matrix(0.8077 0 0 1 195.9536 151.1235)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="23.5225">Hypocotyl</text>
-    <text transform="matrix(0.8077 0 0 1 743.8877 340.6523)" display="inline">
-      <tspan x="0" y="0" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="23.5225">Root</tspan>
-      <tspan x="-1.792" y="28.228" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="23.5225">hairs
-      </tspan>
-    </text>
-    <text transform="matrix(0.8077 0 0 1 335.7354 322.4395)" display="inline">
-      <tspan x="0" y="0" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="23.5225">Root</tspan>
-      <tspan x="-1.792" y="28.228" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-size="23.5225">hairs
-      </tspan>
+    
+    <text transform="translate(557.4453 35.5425)">
+      <tspan x="0" y="0">Hypogeal</tspan>
+      <tspan x="-18.457" dy="1.3em">germination</tspan>
     </text>
 
-    <text transform="matrix(0.8077 0 0 1 25.4146 176.1079)" display="inline" stroke="#000000" stroke-width="0.25"
-      stroke-miterlimit="10" font-size="27">Soil</text>
+    <text transform="translate(729.8262 137.4126)">Plumule</text>
+
+    <text transform="translate(141.6416 342.1074)">Radicle</text>
+
+    <text transform="translate(37.7402 342.1074)">Seed</text>
+
+    <text transform="translate(716.4717 242.4121)">Epicotyl</text>
+
+    <text transform="translate(195.9536 151.1235)">Hypocotyl</text>
+
+    <text transform="translate(743.8877 340.6523)">
+      <tspan x="0" y="0">Root</tspan>
+      <tspan x="-1.792" dy="1.3em">hairs</tspan>
+    </text>
+
+    <text transform="translate(335.7354 322.4395)">
+      <tspan x="0" y="0">Root</tspan>
+      <tspan x="-1.792" dy="1.3em">hairs</tspan>
+    </text>
+
+    <text transform="translate(25.4146 210)">Soil</text>
   </g>
 
 </svg>

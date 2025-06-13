@@ -1,14 +1,8 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420">
   <style>
-    @font-face {
-      font-family: 'Braille36';
-      src: url('/fonts/Braille36US.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
-    }
-
     text {
-      font-family: "Braille36", sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
     }
 
     text.heading {
